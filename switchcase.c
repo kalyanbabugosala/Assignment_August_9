@@ -29,22 +29,4 @@ int main()
 	return 0;
 }
 
-/*
-1.add
-2.sub
-1
 
-enter two digits:5 3
-
-The sum is:8
-1.add
-2.sub
-2
-
-enter two digits:5 3
-
-The difference is:2
-1.add
-2.sub
-
-*/
