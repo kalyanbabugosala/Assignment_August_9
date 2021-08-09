@@ -5,9 +5,7 @@ int main()
 {
 	int i,j;
 	char arg;
-	while(1)
-	{
-		printf("a.add\nb.sub\n");
+		printf("a.add\ns.sub\n");
 		scanf("%c",&arg);
 		switch(arg)
 		{
@@ -16,7 +14,7 @@ int main()
 				scanf("\n%d %d",&i,&j);
 				printf("\nThe sum is:%d\n",i+j);
 				break;
-			case 'b':
+			case 's':
 				printf("\nenter two digits:");
 				scanf("\n%d %d",&i,&j);
 				printf("\nThe difference is:%d\n",i-j);
@@ -25,8 +23,22 @@ int main()
 				printf("No action\n");
 				break;
 		}
-	}
+
 	return 0;
 }
 
+/*
+a.add
+s.sub
+a
 
+enter two digits:5 3
+
+The sum is:8
+
+--------------------------------
+Process exited after 11.11 seconds with return value 0
+Press any key to continue . . .
+
+
+*/
