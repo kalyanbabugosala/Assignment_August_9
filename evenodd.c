@@ -24,7 +24,7 @@ int main()
     	printf("%d,",even[i]);
 	}
 	printf("\nOdd numbers are:");
-    for(i=1;i<50;i++)
+    for(i=0;i<50;i++)
     {
     	printf("%d,",odd[i]);
 	}
