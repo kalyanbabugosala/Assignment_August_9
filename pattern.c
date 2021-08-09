@@ -5,8 +5,8 @@ int main()
     int n;
     printf("Enter height: ");
     scanf("%d", &n);
-    int counter, rowNumber;
-    for(rowNumber = 0; rowNumber < n; rowNumber++)
+    int counter, rowNumber=0;
+    while(rowNumber < n )
     {
         for(counter = 0; counter < n - rowNumber; counter++)
             printf(" ");
@@ -26,6 +26,7 @@ int main()
                 }
                 printf("\\");
                 printf("\n");
+                rowNumber++;
     }
     return 0;
 }
